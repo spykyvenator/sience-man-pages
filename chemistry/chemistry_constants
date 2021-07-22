@@ -1,4 +1,22 @@
 .\" list of constants used in chemistry
 .\" contribute to the github page to correct errors and typos: https://github.com/spykyvenator/sience-man-pages
 .TH man 7 "28/06/2021" "0.0" "chemistry constants"
+.SH CONSTANTS
+.ss 12 0
 
+elektron Mass = 9,10938188E-31 kg				the mass of an elektron
+
+proton Mass = 1,67262158E-27 kg					the mass of a proton
+
+neutron Mass = 1,67492716E-27 kg				the mass of a neutron
+
+unit mass = 1,66E-27 kg							the elementary mass used in PSE
+
+avogadro constant = 6,02214199E23 mol^-1		constant for expressing amount of particles in a mole
+
+elektronVolt = 1,6021676462E-19 J				the charge of an elektron
+
+Ideal gass constant = 8,31 J/(mol*K)			the proportion of which an ideal gass behaves at a temperature
+.SH Author and copyright
+Tom GNU Free Documentation License
+contribute to the github page to correct errors and typos: https://github.com/spykyvenator/sience-man-pages

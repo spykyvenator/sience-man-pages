@@ -2,5 +2,21 @@
 .\" contribute to the github page to correct errors and typos: https://github.com/spykyvenator/sience-man-pages
 .TH man 7 "28/06/2021" "0.0" "physics constants"
 .SH CONSTANTS
-speed of light: 2.99792458E8 m/s	the speed of light
-gravitational acceleration: 9.80665 m/s^2	the acceleration of objects towards earth with gravity
+.SS universal
+.ss 12 0
+speed of light: 2.99792458E8 m/s				the speed of light in vacuum.   
+
+universal gravitation: 6.673E-11 (Nm^2)/(kg^2)	the force with wich two objects of certain masses are pulled towards each other
+
+Coulomb constant: 8.987551787E9 (Nm^2)/(C^2)	the force with wich two objects with certain charge are pulled or repel each other
+
+elementary charge: 1.602176462E-19 C			the charge of an elektron/proton
+
+Magnetic constant: 1.256637061E-6 N/(A^2)		the force with wich two magnetic objects attract each other
+
+.SS earth specific constants
+gravitational acceleration: 9.80665 m/s^2		the acceleration of objects towards earth with gravity when close to the earth surface
+
+.SH Author and copyright
+Tom GNU Free Documentation License
+contribute to the github page to correct errors and typos: https://github.com/spykyvenator/sience-man-pages
