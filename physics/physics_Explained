@@ -1,0 +1,37 @@
+.\" basic explanaition on how to use the physics formulae
+.\" contribute to the github page to correct errors and typos: https://github.com/spykyvenator/sience-man-pages
+.TH man 7 "25/07/2021" "0.0" "physics explained"
+.SH Kinematics
+.SS Velocity
+.ss 12 0
+
+speed refers to how far an object travels in a given time interval regardless of direction
+
+Average speed = (distance traveled/time elapsed)
+
+velocity refers to the magnitude of how fast an object is moving and the direction in which it is moving ( it is a vector)
+
+average velocity = (displacement/time elapsed) = [(final position - initial position) / time elapsed]
+
+instantaneous velocity is your velocity at the time of moving, it is more accurate on a smaller time interval hence the limit to zero of the time
+
+instantaneous velocity = lim(\Delta t -> 0, \Delta x/\Delta t) = dx/dt
+
+acceleration is your change in velocity 
+
+average acceleration = (change of velocity / time elapsed)
+a = (v2-v1)/(t2-t1) = (\Delta v/ \Delta t)
+
+instantaneous acceleration is your acceleration at a particular time, it is more accurate on a smaller time interval hence the limit to zero of the time
+
+instantaneous accurate = a = lim(\Delta t -> 0, (\Delta v/ \Delta t)) = dv /dt
+
+.SS Freely Falling Objects
+
+close to the earth objects will accelerate with 9.81 m/s^2 towards earth
+
+.SS Vectors
+
+.SH Author and copyright
+Tom GNU Free Documentation License
+contribute to the github page to correct errors and typos: https://github.com/spykyvenator/sience-man-pages
