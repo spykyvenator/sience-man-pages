@@ -15,16 +15,16 @@ average velocity = (displacement/time elapsed) = [(final position - initial posi
 
 instantaneous velocity is your velocity at the time of moving, it is more accurate on a smaller time interval hence the limit to zero of the time
 
-instantaneous velocity = lim(\Delta t -> 0, \Delta x/\Delta t) = dx/dt
+instantaneous velocity = lim(\\Delta t -> 0, \\Delta x/\\Delta t) = dx/dt
 
 acceleration is your change in velocity 
 
 average acceleration = (change of velocity / time elapsed)
-a = (v2-v1)/(t2-t1) = (\Delta v/ \Delta t)
+a = (v2-v1)/(t2-t1) = (\\Delta v/ \\Delta t)
 
 instantaneous acceleration is your acceleration at a particular time, it is more accurate on a smaller time interval hence the limit to zero of the time
 
-instantaneous accurate = a = lim(\Delta t -> 0, (\Delta v/ \Delta t)) = dv /dt
+instantaneous acceleration = a = lim(\\Delta t -> 0, (\\Delta v/ \\Delta t)) = dv /dt
 
 .SS Freely Falling Objects
 

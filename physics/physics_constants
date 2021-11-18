@@ -10,6 +10,8 @@ universal gravitation: 6.673E-11 (Nm^2)/(kg^2)	the force with wich two objects o
 
 Coulomb constant: 8.987551787E9 (Nm^2)/(C^2)	the force with wich two objects with certain charge are pulled or repel each other
 
+e0: 8.8542E-12 C^2/(Nm^2)						the permitivity of vacuum = 1/(4*pi*Coulomb's constant)
+
 elementary charge: 1.602176462E-19 C			the charge of an elektron/proton
 
 Magnetic constant: 1.256637061E-6 N/(A^2)		the force with wich two magnetic objects attract each other

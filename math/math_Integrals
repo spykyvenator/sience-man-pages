@@ -1,0 +1,36 @@
+.\" help for Integrals used in Math
+.\" contribute to the github page to correct errors and typos: https://github.com/spykyvenator/sience-man-pages
+.TH man 7 "29/07/2021" "0.0" "Math Integrals"
+.SH Integrals
+.SS Goniometric Help
+.ss 12 0
+Int(cos^2(x)) = (1/2)(1+cos(2x))
+
+Int(sin^2(x) = (1/2)(1 - cos(2x))
+
+Int(sin(x)*cos(x)) = (1/2)(sin(2x))
+
+Int(sin(x)*sin(y)) = (1/2)(cos(x - y) - cos(x + y))
+
+Int(sin(x)*cos(y)) = (1/2)(sin(x - y) + sin(x + y))
+
+Int(cos(x)*cos(y)) = (1/2)(cos(x - y) + cos(x + y))
+
+.SS Substitution
+Short: the chain rule for differentiation backward
+
+Take u='part of the integral', divide the integral with its derivate and replace the part equal to u with u.\r For definite integrals you should put your boundaries in your u formula.
+
+Example:
+
+Int((2x^3 + 1)^7*(x^2) dx,2,3) (integral of function from 2 to 3)
+
+we take u  = 2x^3 + 1 then du/dx = 6x^2 (derivate u) so that du = 6x^2 dx
+
+now we get (1/6)*Int((2x^3 + 1)^7 * (6x^2) dx) = (1/6) Int(u^7 du) ( we replace with du and u ) = (1/6)(1/8u^8) + C = (1/48)(2x^3 + 1)^8 + C
+
+Here C is a constant
+
+.SH Author and copyright
+Tom GNU Free Documentation License
+contribute to the github page to correct errors and typos: https://github.com/spykyvenator/sience-man-pages
