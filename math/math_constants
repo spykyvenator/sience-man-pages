@@ -2,3 +2,6 @@
 .\" contribute to the github page to correct errors and typos: https://github.com/spykyvenator/sience-man-pages
 .TH man 7 "28/06/2021" "0.0" "math constants"
 
+Euler's Number: e=2,7
+where e^(i*pi)=-1
+here i is the imaginary base and pi is pythagora's number

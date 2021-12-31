@@ -1,0 +1,41 @@
+.\" help for Numbers used in Math
+.\" contribute to the github page to correct errors and typos: https://github.com/spykyvenator/sience-man-pages
+.TH man 7 "31/12/2021" "0.0" "Math Numbers"
+.SH Functions and Variables
+.ss 12 0
+.SS Functions
+A function can be seen as an object that, when all it's parameters are filled in spits out another number
+
+these are often written in the form f(variable) = expression
+
+example: f(x) = x^2+2, here f(x) is our function with the variable x
+
+.SSS Natural Numbers
+
+these are the most simple nubers, noted with N
+all numbers are positive and are without comma
+all numbers in this collection can be written as a sum of a series of 1's
+
+.SSS Integers
+
+these are the Natural numbers plus it's negative counterpart noted with Z
+all numbers can be written as a sum or a substraction of a series of 1's
+
+.SSS Rational Numbers
+
+rational numbers are all numbers that can be written as a division of two Integers (no division by zero)
+written as Q
+
+.SSS Real Numbers
+
+each rational number is the solution to a linear expression: nx=m
+
+where m and n are Integers
+
+.SSS Irreal Numbers
+
+each Irreal number is the solution to a function of a quadratic function
+
+.SS Distance and intervals
+
+with distance between two real numbers w mean d(a,b) = |a-b| or abs(a-b)
